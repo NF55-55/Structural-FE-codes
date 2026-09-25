@@ -1,0 +1,2 @@
+- NLgeomOff: linear problem.
+- NLgeomON: non-linear in geometry. Potentially, material and boundary non-linearity can be added within the Newton-Raphson method.
