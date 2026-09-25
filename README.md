@@ -4,7 +4,6 @@
 ## Current workflow:
 
 - create the mesh in either: Abaqus, Ansys or SALOME.
-	In Abaqus it's possible to write out the .inp file containing also all the mesh info even if the number of nodes/element exceeds the license limit.
 - create the sets/groups of nodes on which the boundary conditions (BC) and loads will be applied (fundamental for large/complex meshes to do this
 	step in the mesher itself, as the alternative is either to plot the mesh in MATLAB, which is possible only for small meshes, and take note of
 	the node IDs, or smartly select the nodes by using for example find(nodes(:,1)==0) -> finding all nodes at x coordinate 0)
