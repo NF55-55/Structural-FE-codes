@@ -26,5 +26,5 @@
 - RUN .\main
 - a .vtk file of the results will be saved in ".\VTK RESULTS" folder.
 
-# To add: 
+## To add: 
 .vtk binary file for results (already implemented in C++)
