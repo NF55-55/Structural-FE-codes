@@ -18,3 +18,8 @@
 - execute the program (in ./build/ folder) from the root folder.
 - (for multi-thread execution, e.g.: "./build/solver_name -nt 2", to execute on 2 threads) 
 - a .vtk file (binary or ASCII, depending on what was set in settings.h) of the results will be saved in "./VTK RESULTS" folder.
+
+## To improve:
+
+To avoid rebuilding/recompiling the program every time a BC, a setting or a material property is modified, a readable file with
+all this info should be used instead, or even better, a python script.
