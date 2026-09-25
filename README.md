@@ -1,7 +1,7 @@
 # Structural-FE-codes
 (For info about this project go to https://nf55-55.github.io/projects/Efficient%20structural%20FE%20code/)
 
-##Current workflow:
+## Current workflow:
 
 - create the mesh in either: Abaqus, Ansys or SALOME.
 	In Abaqus it's possible to write out the .inp file containing also all the mesh info even if the number of nodes/element exceeds the license limit.
